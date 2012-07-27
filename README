@@ -1,0 +1,38 @@
+Infolab21 Beamer Theme
+----------------------
+This theme is an infolab21 styled beamer template, for use with LaTeX.
+
+Thar ain't much more to it than that, folks.
+
+
+
+Installation
+------------
+If you have a linux system (or mac, solaris, etc), and bash, the install script should
+work for you.
+
+If not, the installation is a simple matter of copying some stuff into the
+correct dir:
+
+1) Locate your beamer themes directory (on my system it's at
+    /usr/share/texmf-dist/tex/latex/beamer/themes/
+2) Copy the color, outer, theme directories into it.
+3) Make the /usr/share/infolab21beamer/images/ directory, and place the images
+   in it. (if you don't have that directory, change the path on line 38 of
+	   beamerouterthemeinfolab21.sty)
+4) run texhash as root to rebuild the latex cache.
+
+
+Licence
+-------
+GPL, as per the one I edited to get this version.  You should get a copy of the
+license in the distro.  The infolab image used is probably NOT GPL, er, so don't
+twist it for your own ends.
+
+
+Contribution/Hacking
+--------------------
+If you make any tweaks to the package, could you please send them back to me, so
+that everyone can benefit from the wonder your have unleashed.
+
+There's a quick TODO file included if you are stuck for ideas ;-).

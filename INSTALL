@@ -1,0 +1,5 @@
+Install
+-------
+Please run install.sh as root to install, or check the README.
+
+Don't forget to chmod +x ;-).

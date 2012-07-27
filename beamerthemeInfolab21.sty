@@ -1,0 +1,35 @@
+% Copyright 2007 by Till Tantau
+%
+% This file may be distributed and/or modified
+%
+% 1. under the LaTeX Project Public License and/or
+% 2. under the GNU Public License.
+%
+
+% Modified by Stephen Wattam 28-06-11.
+
+\ProvidesPackageRCS $Header: beamerthemeInfolab21.sty,v 1.0 2011/06/28 swattam $
+
+
+\DeclareOptionBeamer{hideothersubsections}{\PassOptionsToPackage{hideothersubsections=#1}{beamerouterthemesidebar}}
+\DeclareOptionBeamer{hideallsubsections}{\PassOptionsToPackage{hideallsubsections=#1}{beamerouterthemesidebar}}
+\DeclareOptionBeamer{useorangestripe}{\PassOptionsToPackage{useorangestripe=#1}{beamerouterthemesidebar}}
+
+%\DeclareOptionBeamer{width}{\PassOptionsToPackage{width=#1}{beamerouterthemesidebar}}
+\DeclareOptionBeamer{left}{\PassOptionsToPackage{left}{beamerouterthemesidebar}}
+\DeclareOptionBeamer{right}{\PassOptionsToPackage{right}{beamerouterthemesidebar}}
+\ProcessOptionsBeamer
+
+\mode<presentation>
+
+
+
+% pull in the various other themes.
+\useoutertheme{infolab21}
+\useinnertheme{rectangles}
+\usecolortheme{infolab21}
+
+
+
+\mode
+<all>

@@ -1,0 +1,13 @@
+TODO file for infolab beamer style
+----------------------------------
+
+If you didn't write this, and wish to contribute, please don't 
+hesitate to do so.  Check README for more details.
+
+List
+----
+1) Make the sidebar, footer separate images
+    this should make LaTeX hide them when the option is given to
+    hide the sidebar, which should be handy
+
+2) un-hard-code the image path, somehow.

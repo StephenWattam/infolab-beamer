@@ -1,0 +1,82 @@
+\documentclass{beamer}
+
+% The line of all importance
+\usetheme{Infolab21}
+%\usecolortheme{infolab21} % can be used with other themes, but is implicit in the ilab21 theme
+
+\begin{document}
+\title{InfoLab21 Beamer Theme}  
+\author{Steve Wattam}
+\date{\today} 
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame} 
+
+
+\section{Theme Options} 
+\subsection{Sidebar}
+\begin{frame}\frametitle{Sidebar Options}
+\begin{itemize}
+    \item The original sidebar is taken from the powerpoint version
+    \vspace{20pt}
+    \item With orange section highlights it looks well ugly
+    \vspace{20pt}
+    \item A version without the orange bar is available.
+\end{itemize} 
+\end{frame}
+
+\begin{frame}\frametitle{Tweakier Tweaks}
+\begin{itemize}
+    \item The section headings can be magically turned orange (edit beamercolortheme.sty)
+    \vspace{30pt}
+    \item Some other stuff can be done.
+\end{itemize} 
+\end{frame}
+
+\subsection{Package Options}
+\begin{frame}\frametitle{Package Options}
+\begin{itemize}
+    \item Applying package options is fun
+    \vspace{10pt}
+    \item Studies have shown that just typing [ and ] increases your lifespan.
+    \vspace{10pt}
+    \item Options run to:
+    \begin{itemize}
+	\item hideothersubsections --- hides, er, some subsections.
+	\item hideallsubsections --- hides subsections in the sidebar
+        \item useorangestripe --- uses the original orange bg image	
+    \end{itemize}
+\end{itemize} 
+\end{frame}
+
+\section{Installation}
+\begin{frame}\frametitle{Installation}
+\begin{enumerate}
+    \item Install Prerequisites
+    \begin{itemize}
+	\item TeX + Beamer
+	\item a computer
+    \end{itemize}
+    \vspace{5pt}
+    \item Copy the {\tt color}, {\tt theme} and {\tt outer} folders into your beamer directory
+    \vspace{5pt}
+    \item Copy images to /usr/share/infolab21beamer/images/ OR keep them in the current dir.
+    \vspace{5pt}
+    \item Run {\tt texhash} as root to rebuild the theme cache.
+\end{enumerate}
+\end{frame}
+
+\section{Goodbye}
+\begin{frame}\frametitle{Farewell!}
+\begin{itemize}
+    \item I regret that the time we had together was so short. 
+\end{itemize}
+\end{frame}
+
+
+\end{document}
+
